@@ -1,0 +1,16 @@
+{
+  "name": "psr0/zero",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "mr.wind",
+      "email": "zouxiuhui@vchangyi.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-0": { "Zero\\": ["lib/Psr0","src/"] }
+  }
+}
